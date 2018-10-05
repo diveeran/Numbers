@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DIVEER-DESKTOP" name="devops.numbers.NumberWordsTests" skipped="0" tests="5" time="0.011" timestamp="2018-10-05T17:39:27">
+  <properties>
+    <property name="ant.project.invoked-targets" value="compile,test,init,dist" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin" />
+    <property name="java.vm.version" value="25.181-b13" />
+    <property name="ant.library.dir" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib" />
+    <property name="ant.file.Numbers" value="E:\Eclipse_WorkSpace\devops-project-3-master\Numbers\antbuild.xml" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="E:\Eclipse_WorkSpace\devops-project-3-master\Numbers" />
+    <property name="java.runtime.version" value="1.8.0_181-b13" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="E:\Eclipse_WorkSpace\devops-project-3-master\Numbers" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="java.io.tmpdir" value="C:\Users\V-DIVE~1.RED\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ant.home" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324" />
+    <property name="ant.project.name" value="Numbers" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_181/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_181/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_181/bin/../jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;E:\apache-ant-1.10.5\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\v-diveer.REDMOND\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.;C:\eclipse\configuration\org.eclipse.osgi\421\0\.cp" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="E:\Eclipse_WorkSpace\devops-project-3-master\Numbers\antbuild.xml" />
+    <property name="user.home" value="C:\Users\v-diveer.REDMOND" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.file.type.Numbers" value="file" />
+    <property name="java.class.path" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-antlr.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-apache-bcel.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-apache-bsf.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-apache-log4j.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-apache-oro.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-apache-regexp.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-apache-resolver.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-apache-xalan2.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-commons-logging.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-commons-net.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-jai.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-javamail.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-jdepend.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-jmf.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-jsch.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit4.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junitlauncher.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-netrexx.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-swing.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-testutil.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-xz.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar;C:\eclipse\configuration\org.eclipse.osgi\75\0\.cp\lib\antdebug.jar;C:\eclipse\configuration\org.eclipse.osgi\75\0\.cp\lib\remote.jar;C:\eclipse\configuration\org.eclipse.osgi\76\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_181\lib\tools.jar;C:\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar" />
+    <property name="user.name" value="v-diveer" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1538761165491 -Declipse.connect.port=57838 -Dant.home=C:\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile E:\Eclipse_WorkSpace\devops-project-3-master\Numbers\antbuild.xml compile test init dist" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_181" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="en" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_181" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="jar" value="Numbers.jar" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="main-class" value="devops.numbers.NumberWordsApplication" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="devops.numbers.NumberWordsTests" name="negatives" time="0.001" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="millions" time="0.0" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="ones" time="0.0" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="thousands" time="0.0" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="hundreds" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

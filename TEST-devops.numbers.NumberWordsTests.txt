@@ -1,0 +1,8 @@
+Testsuite: devops.numbers.NumberWordsTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+
+Testcase: negatives took 0.001 sec
+Testcase: millions took 0 sec
+Testcase: ones took 0 sec
+Testcase: thousands took 0 sec
+Testcase: hundreds took 0 sec
